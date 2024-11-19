@@ -11,7 +11,7 @@ public class StringConcatenation {
             str4[i] = str1.charAt(i);
             i++;
         }
-        int j = 0;
+        int  = 0;
         while (j < len2) {
             str4[i] = str2.charAt(j);
             i++;
@@ -29,8 +29,8 @@ public class StringConcatenation {
 
     public static void main(String[] args) {
         String str1 = "Christian ";
-        String str2 = ",Chavez ";
-        String str3 = ",Sabido";
+        String str2 = "Chavez ";
+        String str3 = "Sabido";
 
         String concatenatedString = concatenatedStrings(str1, str2, str3);
         System.out.println("Concatenated String: " + concatenatedString);
