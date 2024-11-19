@@ -30,7 +30,7 @@ public class StringConcatenation {
     public static void main(String[] args) {
         String str1 = "Christian ";
         String str2 = ",Chavez ";
-        String str3 = ",Sabjdo";
+        String str3 = ",Sabido";
 
         String concatenatedString = concatenatedStrings(str1, str2, str3);
         System.out.println("Concatenated String: " + concatenatedString);
