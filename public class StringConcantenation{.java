@@ -11,7 +11,7 @@ public class StringConcatenation {
             str4[i] = str1.charAt(i);
             i++;
         }
-        int  = 0;
+        int j = 0;
         while (j < len2) {
             str4[i] = str2.charAt(j);
             i++;
